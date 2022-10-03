@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  line-height: 200px;
+  text-align: center;
+  font-size: 6em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  position: relative;
+ border: 2px dashed black;
+}
+#container div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+div#eerste {
+  background-color: blue;
+  z-index: 1;
+  top: 50px;
+  left: 50px;
+}
+
+div#tweede {
+  background-color: blueviolet;
+  z-index: 2;
+  top: 150px;
+  left: 150px;
+}
+div#derde {
+  background-color: chartreuse;
+  z-index: 3;
+  top: 250px;
+  left: 250px;
+}
