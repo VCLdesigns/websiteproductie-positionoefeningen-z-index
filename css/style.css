@@ -17,7 +17,7 @@ body {
   height: 500px;
   margin: 100px auto;
   position: relative;
- border: 2px dashed black;
+  border: 2px dashed black;
 }
 #container div {
   width: 200px;
@@ -27,20 +27,22 @@ body {
 
 div#eerste {
   background-color: blue;
-  z-index: 1;
   top: 50px;
   left: 50px;
 }
 
 div#tweede {
   background-color: blueviolet;
-  z-index: 2;
   top: 150px;
   left: 150px;
 }
+div#tweede:hover{
+    z-index: 1;
+    cursor: pointer;
+}
+
 div#derde {
   background-color: chartreuse;
-  z-index: 3;
   top: 250px;
   left: 250px;
 }
